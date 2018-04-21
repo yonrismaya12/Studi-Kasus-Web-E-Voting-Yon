@@ -257,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Calon Kepala Desa</span>
+              <span class="hidden-xs">Pemilih</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -313,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Calon Kepala Desa</p>
+          <p>Pemilih</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -340,11 +340,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Voting</span>
-          </a>
-        </li>
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-user"></i> <span>Profile</span>
           </a>
         </li>
     </section>

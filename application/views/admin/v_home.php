@@ -257,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Calon Kepala Desa</span>
+              <span class="hidden-xs">Admin</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -313,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Calon Kepala Desa</p>
+          <p>Admin</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -339,13 +339,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>Voting</span>
+            <span>Input Penduduk</span>
           </a>
         </li>
         <li>
           <a href="pages/widgets.html">
-            <i class="fa fa-user"></i> <span>Profile</span>
+            <i class="fa fa-user"></i> <span>Input Calon</span>
           </a>
+        </li>
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Pengaturan</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Jadwal</a></li>
+          </ul>
         </li>
     </section>
     <!-- /.sidebar -->
